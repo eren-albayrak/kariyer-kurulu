@@ -96,6 +96,8 @@ Ayrıntı: [docs/04-gizlilik-ve-etik.md](docs/04-gizlilik-ve-etik.md)
 
 ## Hizmet
 
+Neleri göndermeniz gerektiğini, bunların neye dönüştüğünü ve size ne teslim edildiğini anlatan 12 sayfalık rehber: [docs/kariyer-kurulu-basvuru-rehberi.pdf](docs/kariyer-kurulu-basvuru-rehberi.pdf)
+
 Bu sistemle kendi CV'nizin hazırlanmasını ya da mevcut CV'nizin hedeflediğiniz kurumların gözünden değerlendirilmesini isterseniz GitHub üzerinden bir issue açabilir ya da LinkedIn'den ulaşabilirsiniz.
 
 ## Lisans
