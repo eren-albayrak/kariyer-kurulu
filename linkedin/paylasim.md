@@ -1,51 +1,93 @@
 # LinkedIn paylaşımı
 
-Ek: `kariyer-kurulu-karusel.pdf` (LinkedIn'de "Belge ekle" ile yükleyin; 8 sayfalık karusel olarak görünür).
+## Paylaşım planı
+
+| Ne | Nasıl |
+|---|---|
+| Biçim | Metin + belge (karusel PDF). LinkedIn'de belge gönderileri kaydırıldıkça okunur ve genelde düz metinden daha çok etkileşim alır. |
+| Ek | `kariyer-kurulu-karusel.pdf`. Belge başlığı: **Bir CV, on jüri: Kariyer Kurulu** |
+| Linkler | Gövdeye değil, **ilk yoruma** (aşağıda hazır). Gövdedeki dış link gönderinin erişimini düşürebilir. |
+| Zaman | Salı–Perşembe, 08.00–10.00 ya da 12.00–13.00 |
+| İlk saat | Gelen yorumlara ilk saat içinde cevap verin; erişimi en çok bu belirler. |
+| Etiket | 3–5 hashtag yeterli; daha fazlası spam gibi görünür. |
 
 ---
 
-Bir CV'yi yazan kişi her zaman iyi görür. Peki onu okuyacak kurum nasıl görüyor?
+## Gönderi metni (kopyala-yapıştır)
 
-Bu soruyla yola çıkıp, kıdemli bir mühendis-yönetici CV'si üzerinde çok ajanlı bir yapay zekâ sistemi kurdum ve adını **Kariyer Kurulu** koydum.
+Bir CV'yi 10 jüriye soktum.
+Hiçbiri elemedi. Ama 8'inden 6'sı aynı soruyu sordu.
 
-🔹 Önce CV'yi belgeye dayalı hâle getirdik. CV'deki her tarih ve rakam imzalı bir kurum yazısına bağlandı. Türkçe ve İngilizce sürüm aynı kaynak dosyadan üretildi, iki dilin yapısı otomatik olarak denetlendi.
+Bir CV'yi yazan kişi onu hep iyi görür. Asıl soru şu: Okuyan kurum nasıl görüyor?
 
-🔹 Sonra CV'yi on jüriye soktuk:
-• İki dil jürisi: Türkçe imla ve resmî dil; İngilizcede "çeviri kokan" cümle avı.
-• Sekiz işveren jürisi: kamu kurumu, özel sektör grubu, uluslararası yüklenici, Körfez ulusal şirketi, Avrupa operatörü, komşu sektör holdingi, headhunter ve ATS taraması.
+Bunu ölçmek için yapay zekâ ajanlarıyla bir sistem kurdum. Adı Kariyer Kurulu.
 
-Her jüri aynı yedi kriterle puanladı: ilk 7 saniye, rol uyumu, kanıt, güncellik, teknik derinlik, liderlik, sunum. Sonunda "çağır, beklet ya da ele" kararı verdi.
+Nasıl çalışıyor?
 
-🔹 En sevdiğim katman "jüriye de jüri" oldu. Yapay zekâ jürileri de yanılıyor:
-• Biri "PDF'te karakterler bozuk" dedi. Test ettik; sorun jürinin kendi ekranındaymış.
-• Biri resmî bir proje adını "düzeltmek" istedi. İmzalı belgeye baktık; öneriyi reddettik.
-Hiçbir öneri kaynağa bakılmadan uygulanmadı.
+→ CV önce belgeye dayalı hâle geliyor: her tarih ve rakam imzalı bir kurum yazısına bağlanıyor.
+→ Türkçe ve İngilizce sürüm aynı kaynaktan çıkıyor, iki dil birbirinden kopmuyor.
+→ İki dil jürisi imlayı ve "çeviri kokan" cümleleri ayıklıyor.
+→ Sekiz işveren jürisi CV'yi kendi masasından okuyor: kamu kurumu, özel sektör, uluslararası yüklenici, Körfez şirketi, Avrupa operatörü, komşu sektör, headhunter ve otomatik başvuru tarama sistemi (ATS).
+→ Hepsi aynı 7 kriterle puanlıyor ve karar veriyor: çağır, beklet ya da ele.
 
-📊 Sonuç (anonim):
-• 34 dil bulgusundan 27'si uygulandı.
-• 8 işveren jürisinin 5'i mülakata çağırdı, 3'ü beklemeye aldı, eleyen olmadı.
-• En güçlü kriter teknik derinlik, en zayıfı kariyer sürekliliği.
-• Puanı 6,5'ten yaklaşık 7,9'a çıkarmanın yolu da kriter kriter çıktı.
+En sevdiğim kısım "jüriye de jüri" oldu.
+Bir jüri "PDF'te karakterler bozuk" dedi. Test ettim: sorun jürinin kendi ekranındaymış.
+Bir başkası resmî bir proje adını "düzeltmek" istedi. İmzalı belgeye baktım, öneriyi reddettim.
+Yapay zekâ jürisi de yanılıyor; bu yüzden hiçbir öneri kaynağa bakılmadan uygulanmıyor.
 
-⚙️ Model ataması da sistemin parçası: yönetim, dil jürileri ve doğrulama Claude Opus'ta; sekiz işveren jürisi paralel çalışan Claude Sonnet ajanlarında. Her işe gerektiği kadar güçlü model.
+Kıdemli bir mühendis-yönetici CV'sinde sonuç:
+• 34 dil bulgusu, 27 düzeltme
+• 8 işveren jürisinden 5'i "mülakata çağır", 3'ü "beklet", eleyen yok
+• Puanı 6,5'ten yaklaşık 7,9'a çıkaracak yol kriter kriter belli
 
-Skill dosyasını, jüri istemlerini, tek kaynaktan PDF ve Word üreten derleyiciyi ve kurgusal bir örnek raporu açık kaynak olarak paylaştım:
-👉 github.com/ferrariW368/kariyer-kurulu
+Nasıl kullanabilirsiniz?
 
-CV'nizin hazırlanmasını ya da hedeflediğiniz kurumların gözünden değerlendirilmesini isterseniz mesaj atmanız yeterli.
+1️⃣ Kendiniz: Skill dosyası, jüri istemleri ve CV derleyicisi GitHub'da açık kaynak. Claude Code'a ekleyip kendi CV'nizde çalıştırabilirsiniz.
+2️⃣ Benimle: CV'nizin hazırlanmasını ya da hedeflediğiniz kurumların gözünden değerlendirilmesini isterseniz bana "KURUL" yazmanız yeterli.
 
-#yapayzeka #kariyer #cv #insankaynaklari #claude #ajanlar #açıkkaynak
+Başvuru üç adım:
+① Mevcut CV'nizi ve hedefinizi (kurum, sektör ya da ülke) gönderin.
+② Varsa imzalı belgelerinizi özel mesajla iletin.
+③ İki dilli CV'niz, belge paketiniz ve jüri raporunuz size dönsün.
+
+Karuselde sistemin tamamı var. Linkler ilk yorumda.
+
+Merak ediyorum: Sizce bir CV'de ilk 7 saniyede ne görünmeli?
+
+#yapayzeka #kariyer #cv #insankaynaklari #açıkkaynak
 
 ---
 
-## Kısa sürüm
+## İlk yorum (gönderiden hemen sonra)
 
-CV'yi yazan iyi görür; asıl soru onu okuyanın nasıl gördüğü. Bir CV'yi on yapay zekâ jürisine soktum: 2 dil jürisi ve kamu kurumundan headhunter'a, ATS'ye kadar 8 işveren jürisi. Jürilerin iddialarını da belgeyle sınadım, çünkü onlar da yanılıyor. Sistemin adı Kariyer Kurulu ve açık kaynak: github.com/ferrariW368/kariyer-kurulu
+🔗 Açık kaynak kod, skill ve örnek rapor: https://github.com/ferrariW368/kariyer-kurulu
+📄 Neleri göndermeniz gerektiğini anlatan başvuru rehberi: https://github.com/ferrariW368/kariyer-kurulu/blob/main/docs/kariyer-kurulu-basvuru-rehberi.pdf
+
+Belgelerinizi lütfen herkese açık yorumlara ya da GitHub'a yüklemeyin; özel mesajla alıyorum.
+
+---
+
+## "KURUL" yazanlara hazır cevap
+
+Merhaba, ilginiz için teşekkürler! Başlamak için şunlar yeterli:
+1. Mevcut CV'niz (Word ya da PDF)
+2. Hedefiniz: hangi kurum, sektör ya da ülke
+3. E-posta adresiniz ve dil tercihiniz (TR, EN ya da ikisi)
+Varsa çalışma belgesi, diploma ve sertifikalar puanı yükseltir. Rehber: https://github.com/ferrariW368/kariyer-kurulu/blob/main/docs/kariyer-kurulu-basvuru-rehberi.pdf
+
+---
+
+## Kısa sürüm (yeniden paylaşım ya da story için)
+
+Bir CV'yi 10 yapay zekâ jürisine soktum: 2 dil jürisi ve kamu kurumundan headhunter'a, ATS'ye kadar 8 işveren jürisi. Jürilerin iddialarını da belgeyle sınadım, çünkü onlar da yanılıyor. Sistemin adı Kariyer Kurulu ve açık kaynak. CV'niz için "KURUL" yazın.
 
 ## English version
 
-A CV always looks good to the person who wrote it. The real question is how the reader sees it.
+I put one CV in front of 10 juries.
+None rejected it. But 6 of the 8 employer panels asked the same question.
 
-I built **Kariyer Kurulu (Career Board)**, a multi-agent AI system. It writes an evidence-based CV in Turkish and English from a single source, then puts it in front of ten simulated juries: two language juries and eight employer panels (public utility, private group, international EPC contractor, Gulf NOC, European operator, adjacent industry, executive search, ATS screen). Every jury scores the CV on the same seven criteria and decides: interview, hold or reject. Then a "jury of the jury" checks every claim against the signed source documents, because AI juries make mistakes too.
+Kariyer Kurulu (Career Board) is a multi-agent AI system. It turns a CV into an evidence-based document in Turkish and English from a single source, then runs it past two language juries and eight simulated employer panels: public utility, private group, international EPC contractor, Gulf NOC, European operator, adjacent industry, executive search and an ATS screen. Every panel scores the same seven criteria and decides: interview, hold or reject. A "jury of the jury" then checks every claim against the signed source documents, because AI juries make mistakes too.
 
-Open source: github.com/ferrariW368/kariyer-kurulu
+Use it yourself (open source, link in the first comment) or message me "KURUL" and I will run it on your CV.
+
+#ai #careers #resume #opensource #hrtech
