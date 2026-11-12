@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Kariyer Kurulu - LinkedIn karuseli</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+@page { size: 1080px 1350px; margin: 0 }
+* { margin: 0; box-sizing: border-box }
+:root { --navy:#0E1A2B; --paper:#F4F1EA; --card:#FBFAF6; --orange:#E07B39; --amber:#F0B44C; --blue:#2F6BBF; --soft:#B8C4D6; --ink:#4A5568; --rust:#B5541C }
+body { font-family: 'IBM Plex Sans', Arial, sans-serif; background: var(--navy) }
+.s { width:1080px; height:1350px; position:relative; overflow:hidden; padding:110px 96px 150px; display:flex; flex-direction:column; gap:40px; break-after:page }
+.dark { background:var(--navy); color:var(--paper) }
+.light { background:var(--paper); color:var(--navy) }
+.accent { background:var(--orange); color:var(--navy) }
+.eye { font-size:26px; letter-spacing:4px; text-transform:uppercase; font-weight:600 }
+.dark .eye { color:#E9A06E } .light .eye { color:var(--rust) } .accent .eye { color:var(--navy) }
+h1 { font-family:'Source Serif 4', Georgia, serif; font-size:120px; line-height:1.02; font-weight:600 }
+h2 { font-family:'Source Serif 4', Georgia, serif; font-size:72px; line-height:1.1; font-weight:600 }
+h3 { font-size:36px; font-weight:600; line-height:1.2 }
+p { font-size:32px; line-height:1.45 }
+.dark p.sub { color:var(--soft) } .light p.sub { color:var(--ink) }
+.foot { position:absolute; left:96px; right:96px; bottom:64px; display:flex; justify-content:space-between; font-size:24px }
+.dark .foot { color:#8A97AB } .light .foot { color:#6B7280 } .accent .foot { color:var(--navy) }
+.bar { position:absolute; left:0; top:0; width:1080px; height:14px; background:linear-gradient(90deg,#E07B39,#F0B44C,#2F6BBF) }
+.card { background:var(--card); border:1px solid #DDD6C8; border-radius:18px; padding:30px 34px; display:flex; flex-direction:column; gap:8px }
+.dcard { background:#16263D; border:1px solid #2A3D5A; border-radius:18px; padding:28px 32px; display:flex; flex-direction:column; gap:8px }
+.big { font-family:'Source Serif 4', Georgia, serif; font-size:110px; font-weight:600; line-height:1 }
+.row { display:flex; gap:22px }
+.num { font-size:26px; color:#E9A06E; font-weight:600 }
+.pill { display:inline-block; font-size:24px; font-weight:600; padding:8px 20px; border-radius:999px }
+.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:18px }
+.dots { display:flex; gap:16px }
+.dot { width:40px; height:40px; border-radius:50% }
+</style>
+</head>
+<body>
+
+<section class="s dark" style="justify-content:center">
+<div class="bar"></div>
+<p class="eye">Açık kaynak · CV hazırlama ve inceleme</p>
+<h1>Kariyer<br>Kurulu</h1>
+<p class="sub" style="font-size:40px">Bir CV, on jüri. Belgeye dayalı iki dilli CV ve onu farklı işverenlerin gözünden okuyan çok ajanlı bir sistem.</p>
+<div class="dots"><div class="dot" style="background:#E07B39"></div><div class="dot" style="background:#E07B39"></div><div class="dot" style="background:#5E92D6"></div><div class="dot" style="background:#5E92D6"></div><div class="dot" style="background:#5E92D6"></div><div class="dot" style="background:#5E92D6"></div><div class="dot" style="background:#5E92D6"></div><div class="dot" style="background:#F0B44C"></div><div class="dot" style="background:#F0B44C"></div><div class="dot" style="background:#F0B44C"></div></div>
+<div class="foot"><span>Kaydırın →</span><span>1 / 8</span></div>
+</section>
+
+<section class="s light" style="justify-content:center">
+<p class="eye">Sorun</p>
+<h2>CV’yi yazan her zaman iyi görür.</h2>
+<h2 style="color:#2F6BBF">Asıl soru: onu okuyan kurum nasıl görüyor?</h2>
+<p class="sub">Bir kamu kurumu belge arar, bir headhunter hikâye, bir ATS e-posta adresi. Aynı CV, sekiz farklı masada sekiz farklı okunur.</p>
+<div class="foot"><span>Kariyer Kurulu</span><span>2 / 8</span></div>
+</section>
+
+<section class="s dark" style="gap:22px">
+<p class="eye">Sistem</p>
+<h2>Beş katman, tek kaynak</h2>
+<div class="dcard" style="padding:20px 30px;gap:4px"><h3><span class="num">01</span>&#160;&#160;Kaynak envanteri</h3><p class="sub" style="font-size:28px">Her tarih ve rakam imzalı bir belgeye bağlanır.</p></div>
+<div class="dcard" style="padding:20px 30px;gap:4px"><h3><span class="num">02</span>&#160;&#160;Tek kaynak, iki dil</h3><p class="sub" style="font-size:28px">TR ve EN aynı dosyadan üretilir; yapı eşitliği otomatik denetlenir.</p></div>
+<div class="dcard" style="padding:20px 30px;gap:4px"><h3><span class="num">03</span>&#160;&#160;Dil jürileri</h3><p class="sub" style="font-size:28px">Türkçe imla ve resmî dil; İngilizcede çeviri kokusu avı.</p></div>
+<div class="dcard" style="padding:20px 30px;gap:4px"><h3><span class="num">04</span>&#160;&#160;İşveren jürileri</h3><p class="sub" style="font-size:28px">Sekiz persona, aynı yedi kriter, paralel çalışır.</p></div>
+<div class="dcard" style="padding:20px 30px;gap:4px;border-color:#E07B39"><h3><span class="num">05</span>&#160;&#160;Doğrulama ve sentez</h3><p class="sub" style="font-size:28px">Her jüri iddiası belgeyle sınanır.</p></div>
+<div class="foot"><span>Opus: yönetim, dil, doğrulama · Sonnet: işveren jürileri</span><span>3 / 8</span></div>
+</section>
+
+<section class="s light">
+<p class="eye">Jüri paneli</p>
+<h2>Sekiz masa, sekiz bakış</h2>
+<div class="grid2">
+<div class="card"><h3>Kamu kurumu</h3><p class="sub" style="font-size:26px">Belge, mevzuat, imza yetkisi</p></div>
+<div class="card"><h3>Özel sektör grubu</h3><p class="sub" style="font-size:26px">Ticari sonuç, ölçek</p></div>
+<div class="card"><h3>Uluslararası yüklenici</h3><p class="sub" style="font-size:26px">Sertifika, standart</p></div>
+<div class="card"><h3>Körfez ulusal şirketi</h3><p class="sub" style="font-size:26px">Deneyim, tasdik, dil</p></div>
+<div class="card"><h3>Avrupa operatörü</h3><p class="sub" style="font-size:26px">İSG, CEFR, Avrupa normu</p></div>
+<div class="card"><h3>Komşu sektör</h3><p class="sub" style="font-size:26px">Aktarılabilir yetkinlik</p></div>
+<div class="card"><h3>Headhunter</h3><p class="sub" style="font-size:26px">Konumlandırma, hikâye</p></div>
+<div class="card"><h3>ATS + 7 saniye</h3><p class="sub" style="font-size:26px">Ayrıştırma, anahtar kelime</p></div>
+</div>
+<p class="sub" style="font-size:28px">Puan kartı: ilk 7 saniye · rol uyumu · kanıt · güncellik · teknik derinlik · liderlik · sunum. Karar: çağır, beklet ya da ele.</p>
+<div class="foot"><span>Simülasyon; gerçek kurum görüşü değildir</span><span>4 / 8</span></div>
+</section>
+
+<section class="s accent">
+<p class="eye">Gerçek bir çalışmadan (anonim)</p>
+<h2>Kıdemli bir mühendis-yönetici CV’si</h2>
+<div class="row">
+<div class="card" style="flex:1"><span class="big">6,5</span><p style="font-size:28px;color:#4A5568">panel ortalaması</p></div>
+<div class="card" style="flex:1"><span class="big" style="color:#2F6BBF">5/8</span><p style="font-size:28px;color:#4A5568">mülakata çağırdı</p></div>
+</div>
+<div class="row">
+<div class="card" style="flex:1"><span class="big">0</span><p style="font-size:28px;color:#4A5568">eleyen jüri</p></div>
+<div class="card" style="flex:1"><span class="big" style="color:#B5541C">27</span><p style="font-size:28px;color:#4A5568">dil düzeltmesi (34 bulgudan)</p></div>
+</div>
+<p style="font-size:32px">En güçlü kriter teknik derinlik (7,6). En zayıfı kariyer sürekliliği (4,9).</p>
+<div class="foot"><span>Kariyer Kurulu</span><span>5 / 8</span></div>
+</section>
+
+<section class="s dark">
+<p class="eye">Jüriye de jüri</p>
+<h2>Yapay zekâ jürisi de yanılır</h2>
+<div class="dcard"><h3>“PDF’te karakterler bozuk.”</h3><p class="sub" style="font-size:28px">Metin yeniden çıkarıldı: her şey sağlam. Sorun jürinin kendi ekranındaydı.</p><span class="pill" style="background:#F0B44C;color:#0E1A2B;align-self:flex-start">Yanlış alarm</span></div>
+<div class="dcard"><h3>“Proje adının yazımı hatalı.”</h3><p class="sub" style="font-size:28px">İmzalı kurum belgesi açıldı: resmî ad öyle yazılıyor.</p><span class="pill" style="background:#F0B44C;color:#0E1A2B;align-self:flex-start">Reddedildi</span></div>
+<div class="dcard"><h3>“Under his approval…”</h3><p class="sub" style="font-size:28px">Türkçe kalıbın birebir çevirisi; “Approved and was responsible for” oldu.</p><span class="pill" style="background:#2F6BBF;color:#FBFAF6;align-self:flex-start">Uygulandı</span></div>
+<div class="foot"><span>Hiçbir öneri kaynağa bakılmadan uygulanmaz</span><span>6 / 8</span></div>
+</section>
+
+<section class="s light">
+<p class="eye">Puan nasıl yükselir</p>
+<h2>Her kayıp puanın bir adresi var</h2>
+<div class="card"><p class="eye" style="font-size:24px">Bugün</p><span class="big">6,5</span></div>
+<div class="card"><p class="eye" style="font-size:24px">Hızlı paket · 30 dakika</p><span class="big">~6,9</span><p class="sub" style="font-size:26px">E-posta, dil seviyesi, hedef başlık. Yeni bilgi gerekmez.</p></div>
+<div class="card" style="border:2px solid #E07B39"><p class="eye" style="font-size:24px">Tam paket</p><span class="big" style="color:#B5541C">~7,9</span><p class="sub" style="font-size:26px">Tarihler, sayılarla sonuçlar, kuruma özel sürüm.</p></div>
+<div class="foot"><span>Tahmini; karar her zaman CV sahibinin</span><span>7 / 8</span></div>
+</section>
+
+<section class="s dark" style="justify-content:center">
+<div class="bar"></div>
+<p class="eye">Açık kaynak</p>
+<h2>Skill, istemler, derleyici ve örnek rapor GitHub’da</h2>
+<p class="sub">github.com/ferrariW368/kariyer-kurulu</p>
+<p style="font-size:36px;line-height:1.4">CV’nizin hazırlanmasını ya da hedeflediğiniz kurumların gözünden değerlendirilmesini isterseniz yazmanız yeterli.</p>
+<div class="foot"><span>Kariyer Kurulu</span><span>8 / 8</span></div>
+</section>
+
+</body>
+</html>
