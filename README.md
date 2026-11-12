@@ -62,6 +62,7 @@ Tamamen kurgusal bir örnek aday ve jüri çıktısı: [examples/ornek-aday](exa
 ## İçerik
 
 ```
+KARIYER-KURULU.md                Tek dosyalık sürüm: herhangi bir yapay zekâ asistanına yüklenir
 skills/kariyer-kurulu/SKILL.md   Claude için skill: tüm aşamalar ve kurallar
 docs/                            Yöntem, jüri paneli, model ataması, gizlilik
 prompts/                         Dil jürisi, işveren jürisi ve doğrulama istemleri
@@ -71,6 +72,10 @@ linkedin/                        Paylaşım metni ve tanıtım karuseli
 ```
 
 ## Hızlı başlangıç
+
+**En kolay yol: kurulum yok.** [KARIYER-KURULU.md](KARIYER-KURULU.md) dosyasını kullandığınız yapay zekâ asistanına (Claude, ChatGPT, Gemini) yükleyin, CV'nizi ekleyin ve *"Bu dosyadaki Kariyer Kurulu yöntemini CV'me uygula"* yazın.
+
+**Tam sürüm (Claude Code):**
 
 ```bash
 # 1) Skill'i Claude Code'a ekleyin
@@ -94,11 +99,13 @@ Claude Code'da: *"Kariyer Kurulu skill'ini aç. Ekteki CV ve belgelerden TR/EN C
 
 Ayrıntı: [docs/04-gizlilik-ve-etik.md](docs/04-gizlilik-ve-etik.md)
 
-## Hizmet
+## Kullanım rehberi
 
-Neleri göndermeniz gerektiğini, bunların neye dönüştüğünü ve size ne teslim edildiğini anlatan 12 sayfalık rehber: [docs/kariyer-kurulu-basvuru-rehberi.pdf](docs/kariyer-kurulu-basvuru-rehberi.pdf)
+Neleri hazırlamanız gerektiğini, bunların neye dönüştüğünü ve sonunda elinize ne geçtiğini anlatan 12 sayfalık rehber: [docs/kariyer-kurulu-basvuru-rehberi.pdf](docs/kariyer-kurulu-basvuru-rehberi.pdf)
 
-Bu sistemle kendi CV'nizin hazırlanmasını ya da mevcut CV'nizin hedeflediğiniz kurumların gözünden değerlendirilmesini isterseniz GitHub üzerinden bir issue açabilir ya da LinkedIn'den ulaşabilirsiniz.
+Tanıtım videosu: [linkedin/kariyer-kurulu-tanitim.mp4](linkedin/kariyer-kurulu-tanitim.mp4)
+
+Soru ve öneriler için bir issue açabilirsiniz. Lütfen gerçek CV ya da belge yüklemeyin; issue'lar herkese açıktır.
 
 ## Lisans
 
